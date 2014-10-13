@@ -1,44 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 
-	<head>
-		<meta charset="utf-8">
+  <head>
+    <meta charset="utf-8">
 
-		<title>Class 1 ~ Intermediate HTML/CSS ~ Girl Develop IT</title>
+    <title>Class 1 ~ Intermediate HTML/CSS ~ Girl Develop IT</title>
 
-		<meta name="description" content="This is the official Girl Develop It Intermediate Core HTML/CSS curriculum. It was developed through the contributions of Julie Pagano, Jen Myers, Alexis Goldstein and Izzy Johnston.
+    <meta name="description" content="This is the official Girl Develop It Intermediate Core HTML/CSS curriculum. It was developed through the contributions of Julie Pagano, Jen Myers, Alexis Goldstein and Izzy Johnston.
 
     The course is meant to be taught in 4 two-hour sections. Each of the slides and practice files are customizable according to the needs of a given class or audience.">
-		<meta name="author" content="Girl Develop It">
+    <meta name="author" content="Girl Develop It">
 
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-		<link rel="stylesheet" href="reveal/css/reveal.css">
-		<link rel="stylesheet" href="reveal/css/theme/gdidefault.css" id="theme">
+    <link rel="stylesheet" href="reveal/css/reveal.css">
+    <link rel="stylesheet" href="reveal/css/theme/gdidefault.css" id="theme">
 
-		<!-- For syntax highlighting -->
-		<!-- light editor<link rel="stylesheet" href="lib/css/light.css">-->
-		<!-- dark editor--><link rel="stylesheet" href="reveal/lib/css/dark.css">
+    <!-- For syntax highlighting -->
+    <!-- light editor<link rel="stylesheet" href="lib/css/light.css">-->
+    <!-- dark editor--><link rel="stylesheet" href="reveal/lib/css/dark.css">
 
     <!-- For the slides -->
     <link rel="stylesheet" href="css/slides.css">
-		<!-- If use the PDF print sheet so students can print slides-->
+    <!-- If use the PDF print sheet so students can print slides-->
 
-		<link rel="stylesheet" href="reveal/css/print/pdf.css" type="text/css" media="print">
+    <link rel="stylesheet" href="reveal/css/print/pdf.css" type="text/css" media="print">
 
-		<!--[if lt IE 9]>
-		<script src="lib/js/html5shiv.js"></script>
-		<![endif]-->
-	</head>
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
 
-	<body>
+  <body>
 
-		<div class="reveal">
+    <div class="reveal">
 
-			<!-- Any section element inside of this container is displayed as a slide -->
-			<div class="slides">
-			  <!-- Opening slide -->
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        <!-- Opening slide -->
         <section>
           <img src="images/gdi_logo_badge.png" alt="" />
           <h3>Intermediate HTML and CSS</h3>
@@ -66,13 +66,12 @@
           <ul>
             <li>Who are you?</li>
             <li>What do you hope to get out of the class?</li>
-            <li>What is your favorite dinosaur?</li>
           </ul>
           </div>
         </section>
 
         <!-- Review Terms-->
-        <section>
+        <!--section>
          <h3>Review: Terms</h3>
          <ul>
            <li>
@@ -92,10 +91,10 @@
             <div>The inner workings and functionality of a website or application.</div>
            </li>
          </ul>
-        </section>
+        </section-->
 
         <!-- Review Tools -->
-        <section>
+        <!--section>
           <h3>Review: Tools</h3>
           <ul>
             <li>
@@ -115,7 +114,7 @@
               <div>Sublime Text - Mac or Windows</div>
              </li>
           </ul>
-        </section>
+        </section-->
 
         <!-- Review Roles of HTML v CSS -->
         <section>
@@ -255,7 +254,7 @@
 
         <!-- Selectors elements-->
         <section>
-			  <h3>Review: Selector: Element</h3>
+        <h3>Review: Selector: Element</h3>
           <pre><code class="html">p {
   property: value;
 }</code></pre>
@@ -268,18 +267,18 @@
 
         <!-- Selectors ID-->
         <section>
-			    <h3>Review: Selector: ID</h3>
+          <h3>Review: Selector: ID</h3>
 <pre><code class="html">#footer {
   property: value;
 }</code></pre>
           <p>Selects all elements with an id of "footer".</p>
           <pre><code class="html">&lt;p id="footer">Copyright 2011&lt;/p></code></pre>
           <p>The associated HTML.</p>
-			  </section>
+        </section>
 
         <!-- Selectors Class-->
         <section>
-			    <h3>Selector: Class</h3>
+          <h3>Selector: Class</h3>
 <pre><code class="html">.warning {
   color: red;
 }</code></pre>
@@ -287,7 +286,7 @@
 
           <pre><code class="html">&lt;p class="warning">Run away!&lt;/p></code></pre>
           <p>The associated HTML.</p>
-			  </section>
+        </section>
 
         <!-- Selector position-->
         <section>
@@ -307,10 +306,10 @@
       <section>
         <h3>Standard Practices</h3>
         <p>Awesome, right?</p>
-        <p> But how do people use this <span class = "green" style ="font-style:italic">REALLY?</span>
+        <p>But how do people use this <span class = "green" style ="font-style:italic">REALLY?</span>
         <ul>
           <li class = "fragment">Reset CSS files</li>
-          <li class = "fragment">Standard widths and sizes</li>
+          <li class = "fragment">Standard widths and font sizes</li>
           <li class = "fragment">Wrappers</li>
         </ul>
       </section>
@@ -318,7 +317,7 @@
       <!-- Reset CSS-->
       <section>
         <h3>Reset CSS</h3>
-        <p>Even though HTML is the structure and CSS is the design, some HTML elements have default styles</p>
+        <p>Even though HTML is the structure and CSS is the design, some HTML elements have default styles applied by the browser.</p>
         <p class = "fragment">Examples include:</p>
         <ul class = "fragment">
           <li>Bulleted lists like this one have standard bullets</li>
@@ -351,16 +350,10 @@
       <!-- Sizes-->
       <section>
         <h3>Standard widths and sizes</h3>
-        <p>Some sizes that are good to know about</p>
+        <p class="left-align">Some sizes that are good to know about</p>
         <ul>
-          <li>A standard font size is usually 12px</li>
-          <li>
-            Screens vary greatly in width!
-            Standardize your design a couple ways
-            <ul>
-              <li>Set the body width to a specific width</li>
-              <li>Set the content area width to 100%, with max-width of around 1200px/1400px and a min-width of around 960px.
-            </ul>
+          <li>A standard font size for websites is 16px (browser default)</li>
+          <li>Screens vary greatly in width! Know your standard device sizes. Checkout <a href="https://windowresizer.userecho.com/" target="blank">https://windowresizer.userecho.com/</a>
           </li>
         </ul>
       </section>
@@ -392,13 +385,14 @@
 
       <!-- Links-->
       <section>
-        <h3>Linking on pages</h3>
+        <h3>Fragment Linking</h3>
+        <p>A <span class="yellow">URL fragment</span> is a name preceded by a hash mark (#), which specifies an internal target location (an ID) within the current page.</p>
 <pre><code class = "html">
-&lt;a href = "#section">Go to Section!&lt;/a>
-</code></pre>
+&lt;a href="#section">Go to Section!&lt;/a>
+  </code></pre>
 <pre><code class = "html">
-&lt;a name= "section">&lt;/a>
-</code></pre>
+&lt;div id="section">&lt;/div>
+  </code></pre>
       <p><a href = "http://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors" target = "_blank">Example on Wikipedia</a>
       </section>
 
@@ -414,7 +408,7 @@
 </code></pre>
 <pre><code class = "html">
 &lt;div class = "turn-blue">I will only turn blue on hover&lt;/div>
-</code></pre>
+  </code></pre>
       <style>
       .turn-blue:hover{
         background-color: lightblue;
@@ -427,7 +421,7 @@
       <!-- Fonts-->
       <section>
         <h3>@font-face</h3>
-        <p>The world of HTML has progressed beyond Times New Roman and Arial</p>
+        <p>The world of HTML has progressed beyond "web safe fonts" such as Times New Roman and Arial</p>
         <p class = "green">Yay!</p>
         <p>How do we use new and cool fonts?</p>
       </section>
@@ -437,7 +431,7 @@
         <h3>@font-face</h3>
         <p>Use font from outside sources (like Google Web Fonts)</p>
         <p><a href = "http://www.google.com/webfonts" target = "_blank">http://www.google.com/webfonts</a></p>
-        <p>In our example, we use Audiowide, Quicksand and Lato</p>
+        <p>In our example site, we use Audiowide, Quicksand and Lato</p>
 <pre><code class = "html">
   &lt;link href="http://fonts.googleapis.com/css?family=Audiowide|Quicksand:300,400,700|Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic" rel="stylesheet" type="text/css">
 </code></pre>
@@ -461,6 +455,8 @@
     font-style: normal;
   }
 </code></pre>
+<small><a href="http://www.entypo.com/" target="_blank">Entypo</a></small><br/>
+<small><a href="http://webfonts.info/resources/fonts-available-for-@fontface-embedding" target="_blank">More fonts for embedding</a></small>
       </section>
 
       <section>
@@ -468,29 +464,59 @@
         <p>Using the fonts</h3>
 <pre><code class = "html">
 body{
-  font-family: 'Lato', Arial, sans-serif;
+  font-family: 'Lato', Arial, sans-serif; /* Google font */
+}
+.button{
+  font-family: 'EntypoRegular'; /* Downloaded font */
 }
 </code></pre>
+      </section>
+
+      <!-- Icons with Font Awesome -->
+      <section>
+        <h3>@font-face</h3>
+        <p>Use icon set from Font Awesome</p>
+        <p><a href = "http://fontawesome.io/" target = "_blank">http://fontawesome.io/</a></p>
+        <p>In our example site, we use <span class="yellow">fa-arrow-circle-o-down</span> and <span class="yellow">fa-arrow-circle-o-up</span></p>
+<pre><code class = "html">
+  &lt;link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"/>
+  </code></pre>
+        <a href = "http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" target ="_blank">What does that do?</a>
+      </section>
+
+      <section>
+        <h3>@font-face</h3>
+        <p>Using Font Awesome icons</h3>
+<pre><code class = "html">
+  &lt;i class="fa fa-arrow-circle-o-down"></i>
+  </code></pre>
+  <pre><code class = "html">
+  &lt;i class="fa fa-arrow-circle-o-down fa-2x"></i>
+  </code></pre>
+      <br/>
+      <a href="http://fortawesome.github.io/Font-Awesome/cheatsheet/">Font Awesome Cheatsheet</a>
       </section>
 
       <!-- Let's Develop It-->
       <section>
         <h3>Let's Develop It</h3>
-        <p class = "blue">Use your new-found knowledge!</p>
         <ul>
-          <li>Update the links in the header and footer to jump to the corresponding section</li>
-          <li>Update the links in the site to change color on hover. Try to update the background color too!</li>
           <li>
             Update the font of the site. The completed example uses:
             <ul>
               <li>Lato for the body</li>
               <li>Audiowide for h1</li>
               <li>Quicksand for h2</li>
-              <li>EntypoRegular for the bullets and jump up/down links</li>
+              <li>EntypoRegular for the bullets</li>
+              <li>Font Awesome for the jump up/down links</li>            
             </ul>
           </li>
-
+          <li>Update the links in the header and footer to jump to the corresponding section</li>
+          <li>Update the links in the site to change color on hover. Try to update the background color too!</li>
         </ul>
+        <br/>
+        <a href="http://en.wikipedia.org/wiki/Unicode_symbols" target="_blank">What are Unicode Symbols?</a></br>
+        <a href="http://www.unicode.org/charts/" target="_blank">Unicode Symbol Chart</a></p>
       </section>
 
       <!-- Intro to HTML 5-->
@@ -521,7 +547,7 @@ body{
         <section>
           <section>
             <h2>What about the browsers?</h2>
-            <ul>
+            <ul class="browsers">
               <li class="chrome">Chrome</li>
               <li class="firefox">Firefox</li>
               <li class="ie">Internet Explorer</li>
@@ -530,7 +556,7 @@ body{
             </ul>
           </section>
           <section>
-            <h2>HTML5 &amp; CSS3 Readiness</h2>
+            <h3>HTML5 &amp; CSS3 Readiness</h3>
             <a href="http://html5readiness.com/" target="_blank">HTML5 &amp; CSS3 Readiness</a><br/>
             <img src="images/screenshots/html5-css3-readiness.png" alt=""/>
           </section>
@@ -581,7 +607,7 @@ body{
         <section>
           <section>
             <h3>So what's so cool about it?</h3>
-            <img src="images/html5.svg" style="height:75%" alt=""/>
+            <img src="images/html5.svg" style="height:25%; width:25%" alt=""/>
             <p>Too much to cover in our time together</p>
             <p>But here are some highlights:</p>
           </section>
@@ -591,13 +617,13 @@ body{
             <ul>
               <li>Deprecated items (e.g. frame, frameset, noframes)</li>
               <li>Presentational elements and attributes replaced by CSS (e.g.
-               font, big, center)</li>
+               font, big, center) <a href="http://dev.w3.org/html5/spec/single-page.html#obsolete">reference</a></li>
             </ul>
-            <a href="http://dev.w3.org/html5/spec/single-page.html#obsolete">reference</a>
           </section>
           <section>
             <h2>Redefines a few things</h2>
             <p>Gives some old elements semantic meaning and separates them from presentation (e.g. b, i, strong, em)</p>
+            <a href="http://html5doctor.com/i-b-em-strong-element/">Further Reading</a>
           </section>
           <section>
             <h2>Adds a bunch of new features</h2>
@@ -828,7 +854,7 @@ body{
             <li class="fragment">Accessibility</li>
             <li class="fragment">Searchability</li>
             <li class="fragment">Internationalization</li>
-            <li class="fragment">Interoperability</li>
+            <li class="fragment">Compatibilty</li>
           </ul>
           <p class="fragment">It also helps treat the plague of div-itis!</p>
         </section>
@@ -843,7 +869,7 @@ body{
 
           <section>
             <h2>HTML5Shiv</h2>
-            <a href="http://code.google.com/p/html5shiv/">HTML5Shiv</a>
+            <a href="http://code.google.com/p/html5shiv/" target="_blank">HTML5Shiv</a>
             <p>HTML5 IE enabling script</p>
             <pre><code>&lt;!--[if lt IE 9]&gt;
 &lt;script src="html5shiv.js"&gt;&lt;/script&gt;
@@ -860,7 +886,7 @@ body{
             <li>Change one small thing at a time</li>
             <li>Remember to modify the CSS to match the HTML</li>
             <li>You have 10-15 minutes to get started</li>
-            <li>You won't be able to change everything - if we have time, you can continue at the end of the workshop</li>
+            <li>You won't be able to change everything - if we have time, you can continue at the end of the workshop or you can do it as homework</li>
           </ul>
         </section>
 
@@ -869,43 +895,43 @@ body{
           <div style="font-size:1000%; height:100%; margin-top:20%" class="blue">?</div>
         </section>
 
-			</div>
-  		<footer>
+      </div>
+      <footer>
         <div class="copyright">
           Intermediate HTML/CSS ~ Girl Develop It ~
           <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a>
         </div>
       </footer>
-		</div>
+    </div>
 
 
-		<script src="reveal/lib/js/head.min.js"></script>
-		<script src="reveal/js/reveal.min.js"></script>
+    <script src="reveal/lib/js/head.min.js"></script>
+    <script src="reveal/js/reveal.min.js"></script>
 
-		<script>
+    <script>
 
-			// Full list of configuration options available here:
-			// https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				controls: true,
-				progress: true,
-				history: true,
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
 
-				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/none
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/none
 
-				// Optional libraries used to extend on reveal.js
-				dependencies: [
-					{ src: 'reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'reveal/plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'reveal/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-					{ src: 'reveal/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
-				]
-			});
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal/plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'reveal/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'reveal/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+        ]
+      });
 
-		</script>
+    </script>
 
-	</body>
+  </body>
 </html>
