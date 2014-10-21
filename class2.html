@@ -47,7 +47,7 @@
     </section>
 
       <!-- Welcome-->
-      <section>
+      <!--section>
         <h3>Welcome!</h3>
         <div class="left-align">
           <p>Girl Develop It is here to provide affordable and accessible programs to learn software through mentorship and hands-on instruction.</p>
@@ -59,7 +59,7 @@
             <li>Have fun</li>
           </ul>
         </div>
-      </section>
+      </section-->
       <section>
         <img src="images/css3.svg" alt=""/>
       </section>
@@ -71,12 +71,12 @@
         </ul>
       </section>
 
-      <section>
-        <h2>New Selectors</h2>
-      </section>
-
       <!-- Attribute Selectors-->
       <section>
+        <section>
+          <h2>New Selectors</h2>
+          <a href="http://www.w3schools.com/cssref/css_selectors.asp" target="_blank">Full List of CSS selectors</a>
+        </section>
         <section>
           <h2>Attribute Selectors</h2>
           <p>Not just classes and ids any more!</p>
@@ -104,7 +104,7 @@ div[foo*="bar"] {
           </article>
         </section>
         <section class="attribute-selectors">
-          <h2>Attribute Selectors</h2>
+          <h3>Attribute Selectors</h3>
           <p>People don't actually use foo do they?</p>
           <pre><code>a[href^="http://"] {
   color: red;
@@ -257,7 +257,7 @@ input:checked + label {
         </section>
         <section>
           <h2>Use a pseudo-selector</h2>
-          <p>We need to clear every 4th famous woman</p>
+          <p>We need to clear every 4th famous woman.</p>
           <p>Previously, this was done by manually adding a <strong>break</strong> class to every 4th element</p>
           <img src="images/screenshots/famous-break.png" alt=""/>
           <p>Replace this with an <strong>:nth-child</strong> selector</p>
@@ -301,7 +301,7 @@ input:checked + label {
         <section>
           <h2>Vendor Prefixes</h2>
           <h4>each browser has their own</h4>
-          <ul>
+          <ul class="browsers">
             <li class="chrome">-webkit-</li>
             <li class="firefox">-moz-</li>
             <li class="ie">-ms-</li>
@@ -323,13 +323,13 @@ input:checked + label {
           <h4>order matters</h4>
           <p>the non-prefixed property should always go last</p>
         </section>
-        <section>
+        <!--section>
           <h2>Vendor Prefixes</h2>
           <ul>
             <li>A little annoying, but totally worth it!</li>
             <li>Tools available to help (e.g. Compass)</li>
           </ul>
-        </section>
+        </section-->
       </section>
 
       <!-- Border Radius-->
@@ -556,6 +556,8 @@ input:checked + label {
       <!--Text Shadow-->
       <section>
         <h2>text-shadow</h2>
+        <p>adds a drop shadow to text</p>
+        <p>text-shadow: offset-x offset-y blur color</p>
         <pre><code>#example1 { text-shadow: 2px 2px 10px red; }
 
 #example2 {
@@ -583,10 +585,10 @@ text-shadow: 1px 1px 10px red,
           <pre><code class="css">.linear-example1 {
 background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
 }
-.linear-example2 {
+.linear-example2 { /* Starting from the right */
 background-image: linear-gradient(right, red, orange, yellow, green, blue, indigo, violet);
 }
-.linear-example3 {
+.linear-example3 { /* Starting from the bottom right */
 background-image: linear-gradient(bottom right, red, orange, yellow, green, blue, indigo, violet);
 }</code></pre>
           <article class="gradients">
@@ -621,7 +623,7 @@ background-image: linear-gradient(bottom right, red, white);
         <section>
           <h2>radial gradients</h2>
           <pre><code>.radial-example1 {
-  background-image: radial-gradient(circle cover, red, orange, yellow, green, blue, indigo, violet);
+  background-image: radial-gradient(circle, red, orange, yellow, green, blue, indigo, violet);
 }
 .radial-example2 {
   background-image: radial-gradient(0 0, circle, red, orange, yellow, green, blue, indigo, violet);
@@ -641,7 +643,7 @@ background-image: linear-gradient(bottom right, red, white);
         <section>
           <h2>radial gradients</h2>
           <pre><code>.radial-example4 {
-  background-image: radial-gradient(circle cover, red, white);
+  background-image: radial-gradient(circle, red, white);
 }
 .radial-example5 {
   background-image: radial-gradient(0 0, circle, red, white);
@@ -666,7 +668,7 @@ background-image: linear-gradient(bottom right, red, white);
 
       <!-- Buttons-->
       <section>
-        <h2>Example: CSS3 Buttons</h2>
+        <h3>Example: CSS3 Buttons</h3>
         <a href="http://hellohappy.org/css3-buttons/" target="_blank">
           <img src="images/screenshots/css3-buttons.png" alt=""/>
         </a>
@@ -746,7 +748,7 @@ background-image: url('../images/html5-features.png'),
         </section>
         <section>
           <h2>transition-property</h2>
-          <p>the names of CSS properties that should be transitioned</p>
+          <p>the name of CSS property that should be transitioned</p>
           <pre><code>
 .example1 { transition-property: background-color; }
           </code></pre>

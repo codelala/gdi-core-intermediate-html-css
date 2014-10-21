@@ -483,15 +483,13 @@ article.gradients .linear-example6 {
 
 /* line 305, source/slides.css */
 article.gradients .radial-example1 {
-  background-image: -webkit-gradient(radial, circle cover, 0, circle cover, 100, color-stop(0%, #ff0000), color-stop(16.66667%, #ffa500), color-stop(33.33333%, #ffff00), color-stop(50%, #008000), color-stop(66.66667%, #0000ff), color-stop(83.33333%, #4b0082), color-stop(100%, #ee82ee));
-  background-image: -webkit-radial-gradient(circle cover, #ff0000, #ffa500, #ffff00, #008000, #0000ff, #4b0082, #ee82ee);
-  background-image: -moz-radial-gradient(circle cover, #ff0000, #ffa500, #ffff00, #008000, #0000ff, #4b0082, #ee82ee);
-  background-image: -o-radial-gradient(circle cover, #ff0000, #ffa500, #ffff00, #008000, #0000ff, #4b0082, #ee82ee);
-  background-image: radial-gradient(circle cover, #ff0000, #ffa500, #ffff00, #008000, #0000ff, #4b0082, #ee82ee);
+  background-image: -webkit-radial-gradient(circle, #ff0000, #ffa500, #ffff00, #008000, #0000ff, #4b0082, #ee82ee);
+  background-image: -moz-radial-gradient(circle, #ff0000, #ffa500, #ffff00, #008000, #0000ff, #4b0082, #ee82ee);
+  background-image: -o-radial-gradient(circle, #ff0000, #ffa500, #ffff00, #008000, #0000ff, #4b0082, #ee82ee);
+  background-image: radial-gradient(circle, #ff0000, #ffa500, #ffff00, #008000, #0000ff, #4b0082, #ee82ee);
 }
 /* line 310, source/slides.css */
 article.gradients .radial-example2 {
-  background-image: -webkit-gradient(radial, 0 0, 0, 0 0, 100, color-stop(0%, #ff0000), color-stop(16.66667%, #ffa500), color-stop(33.33333%, #ffff00), color-stop(50%, #008000), color-stop(66.66667%, #0000ff), color-stop(83.33333%, #4b0082), color-stop(100%, #ee82ee));
   background-image: -webkit-radial-gradient(0 0, circle, #ff0000, #ffa500, #ffff00, #008000, #0000ff, #4b0082, #ee82ee);
   background-image: -moz-radial-gradient(0 0, circle, #ff0000, #ffa500, #ffff00, #008000, #0000ff, #4b0082, #ee82ee);
   background-image: -o-radial-gradient(0 0, circle, #ff0000, #ffa500, #ffff00, #008000, #0000ff, #4b0082, #ee82ee);
@@ -499,7 +497,6 @@ article.gradients .radial-example2 {
 }
 /* line 315, source/slides.css */
 article.gradients .radial-example3 {
-  background-image: -webkit-gradient(radial, 0 50%, 0, 0 50%, 100, color-stop(0%, #ff0000), color-stop(16.66667%, #ffa500), color-stop(33.33333%, #ffff00), color-stop(50%, #008000), color-stop(66.66667%, #0000ff), color-stop(83.33333%, #4b0082), color-stop(100%, #ee82ee));
   background-image: -webkit-radial-gradient(0 50%, circle, #ff0000, #ffa500, #ffff00, #008000, #0000ff, #4b0082, #ee82ee);
   background-image: -moz-radial-gradient(0 50%, circle, #ff0000, #ffa500, #ffff00, #008000, #0000ff, #4b0082, #ee82ee);
   background-image: -o-radial-gradient(0 50%, circle, #ff0000, #ffa500, #ffff00, #008000, #0000ff, #4b0082, #ee82ee);
@@ -507,10 +504,10 @@ article.gradients .radial-example3 {
 }
 
 article.gradients .radial-example4 {
-  background-image: -webkit-radial-gradient(circle cover, #ff0000, #ffffff);
-  background-image: -moz-radial-gradient(circle cover, #ff0000, #ffffff);
-  background-image: -o-radial-gradient(circle cover, #ff0000, #ffffff);
-  background-image: radial-gradient(circle cover, #ff0000, #ffffff);
+  background-image: -webkit-radial-gradient(circle, #ff0000, #ffffff);
+  background-image: -moz-radial-gradient(circle, #ff0000, #ffffff);
+  background-image: -o-radial-gradient(circle, #ff0000, #ffffff);
+  background-image: radial-gradient(circle, #ff0000, #ffffff);
 }
 
 article.gradients .radial-example5 {
@@ -886,7 +883,7 @@ article.transform-translate .example3:hover {
 article.transform-origin {
   margin: 0 auto;
   padding: 100px;
-  width: 700px;
+  width: 735px;
   overflow: hidden;
   *zoom: 1;
 }
@@ -900,7 +897,7 @@ article.transform-origin div {
   line-height: 120px;
   margin: 0 20px;
   text-align: center;
-  width: 180px;
+  width: 200px;
   color: #333;
 }
 /* line 574, source/slides.css */
