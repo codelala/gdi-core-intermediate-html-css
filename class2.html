@@ -689,24 +689,15 @@ background-image: url('../images/html5-features.png'),
       </section>
 
       <!-- Caution-->
-      <section>
+      <!--section>
         <h2>Shiny CSS3 Features</h2>
         <h3>Use in Moderation</h3>
-      </section>
+      </section-->
 
       <!-- Let's Develop It-->
       <section data-state="activity">
         <section>
           <h2>Let's Develop It</h2>
-          <p>Enhance our Women in Computing web site by using CSS3 properties:</p>
-          <ul>
-            <li>Tackle one small problem at a time</li>
-            <li>You have 10-15 minutes to get started</li>
-            <li>You won't be able to change everything - if we have time, you can continue at the end of the workshop</li>
-          </ul>
-        </section>
-        <section>
-          <h2>Suggestions</h2>
           <ul>
             <li>Give the navigation links rounded corners</li>
             <li>Turn the famous women images into circles</li>
@@ -755,12 +746,6 @@ background-image: url('../images/html5-features.png'),
           <pre><code>
 .example2 { transition-property: all; }
           </code></pre>
-        </section>
-        <section>
-          <h2>transition-property</h2>
-          <p>
-            <a href="http://leaverou.github.com/animatable/" target="_blank">animatable examples</a>
-          </p>
           <p>
             <a href="http://www.w3.org/TR/css3-transitions/#animatable-css" target="_blank">full list of supported properties</a>
           </p>
@@ -807,6 +792,24 @@ background-image: url('../images/html5-features.png'),
             <div class="cubic-bezier">cubic-bezier</div>
           </article>
           <a href="http://cubic-bezier.com/" target="_blank">cubic-bezier</a>
+        </section>
+        <section>
+          <h3>Transition Example</h3>
+<pre><code>
+  div.example {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 1s linear 2s;
+    transition: width 1s linear 2s;
+    /* property - duration - timing-function - delay */
+  }
+
+  div:hover {
+      width: 300px;
+  }
+</code></pre>
+          <article class="transition-example"><div class="example"></div></article>
         </section>
       </section>
 
@@ -896,14 +899,14 @@ background-image: url('../images/html5-features.png'),
             </div>
           </article>
         </section>
-        <section>
+        <!--section>
           <h2>3D transforms</h2>
           <a href="http://desandro.github.com/3dtransforms/" target="_blank">examples</a>
-        </section>
+        </section-->
       </section>
 
       <!-- Animations-->
-      <section>
+      <!--section>
         <section>
           <h2>Animations</h2>
           <p>animate transitions from one CSS style configuration to another</p>
@@ -936,22 +939,12 @@ background-image: url('../images/html5-features.png'),
             <li>Performance</li>
           </ul>
         </section>
-      </section>
+      </section-->
 
       <!-- Let's Develop It -->
       <section data-state="activity">
         <section>
           <h2>Let's Develop It!</h2>
-          <p>Continue enhancing the site using HTML5 &amp; CSS3</p>
-          <ul>
-            <li>Tackle one small problem at a time</li>
-            <li>Ask for help when you need it</li>
-            <li>Continue migrating to HTML5</li>
-            <li>Continue enhancing using CSS3</li>
-          </ul>
-        </section>
-        <section>
-          <h2>Suggestions</h2>
           <ul>
             <li>Add transitions to the navigation links</li>
             <li>Rotate the famous women images on hover</li>

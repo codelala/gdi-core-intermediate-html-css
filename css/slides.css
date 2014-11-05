@@ -717,6 +717,19 @@ article.gradients .radial-example6 {
   -o-transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
   transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
 }
+
+.transition-example .example{
+  width: 100px;
+  height: 100px;
+  background: red;
+  margin: 50px auto;
+  -webkit-transition: width 1s linear 2s;
+  transition: width 1s linear 2s;
+}
+.transition-example .example:hover {
+    width: 300px;
+  }
+}
 /******************************
 * Class 2 Gradients
 *******************************/
